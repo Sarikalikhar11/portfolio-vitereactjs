@@ -41,14 +41,10 @@ const Banner = () => {
       >
         <div className="container mx-auto px-4 py-8 text-white">
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="w-full md:w-2/3 mb-8 md:mb-0">
-              <h3 className="mt-3 text-3xl md:text-5xl font-semibold">
-                Hi, I am
-              </h3>
-              <h1 className="mt-3 text-4xl md:text-6xl font-bold">
-                Sarika K. Likhar
-              </h1>
-              <h2 className="mt-3 text-3xl md:text-5xl">
+            <div className="w-full px-10 mb-8  ">
+              <h3 className="mt-3 text-3xl  font-semibold">Hi, I am</h3>
+              <h1 className="mt-3 text-4xl  font-bold">Sarika K. Likhar</h1>
+              <h2 className="mt-3 text-3xl ">
                 And I am a{' '}
                 <span className="font-bold underline" ref={el}></span>
               </h2>
@@ -102,9 +98,9 @@ const Banner = () => {
                 </a>
               </div>
             </div>
-            <div className="w-full md:w-1/3 flex justify-center">
+            <div className="w-full py-2 flex justify-center">
               <img
-                className="rounded-full shadow-lg w-48 md:w-64"
+                className="rounded-full shadow-lg"
                 src={bannerImage}
                 alt="Profile Picture"
               />
